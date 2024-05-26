@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Shopping App',
       theme: ThemeData(
+          useMaterial3: true,
           inputDecorationTheme: const InputDecorationTheme(
             hintStyle: TextStyle(
               fontWeight: FontWeight.bold,
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'lato',
           colorScheme: ColorScheme.fromSeed(
             seedColor: const Color.fromRGBO(254, 206, 1, 1),
+            primary: const Color.fromRGBO(254, 206, 1, 1),
           )),
       home: const HomePage(),
     );
