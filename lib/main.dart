@@ -32,13 +32,24 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.bold,
             fontSize: 20,
           ),
+          titleLarge: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 35,
+          ),
           bodySmall: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 17,
           ),
         ),
+        appBarTheme: const AppBarTheme(
+          titleTextStyle: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
       ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
