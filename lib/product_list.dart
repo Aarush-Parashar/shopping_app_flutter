@@ -19,6 +19,7 @@ class _ProductListState extends State<ProductList> {
     selectedFilter = filters[0];
   }
 
+  @override
   Widget build(BuildContext context) {
     const border = OutlineInputBorder(
       borderSide: BorderSide(
